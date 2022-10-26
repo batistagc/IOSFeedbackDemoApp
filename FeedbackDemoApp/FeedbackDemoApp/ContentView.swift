@@ -33,6 +33,27 @@ struct ContentView: View {
                     } label: {
                         Label("Custom audio from App", systemImage: "iphone.homebutton.radiowaves.left.and.right")
                     }
+                    Button {
+                        print("Second custom audio from App")
+                        let audio: Audio = .custom(file: "MySecondCustomAudio", type: "m4a")
+                        ManagerFeedback.feedbakCustom(sound: audio)
+                    } label: {
+                        Label("Second custom audio from App", systemImage: "iphone.homebutton.radiowaves.left.and.right")
+                    }
+                    Button {
+                        print("Thats suspicious audio")
+                        let audio: Audio = .custom(file: "Thats-sus", type: "m4a")
+                        ManagerFeedback.feedbakCustom(sound: audio)
+                    } label: {
+                        Label("Thats suspicious audio", systemImage: "iphone.homebutton.radiowaves.left.and.right")
+                    }
+                    Button {
+                        print("Thats weird custom audio")
+                        let audio: Audio = .custom(file: "thats-weird", type: "m4a")
+                        ManagerFeedback.feedbakCustom(sound: audio)
+                    } label: {
+                        Label("Thats weird custom audio", systemImage: "iphone.homebutton.radiowaves.left.and.right")
+                    }
                 }
                 Section("Default Feedbacks") {
                     Button {

@@ -13,6 +13,9 @@
 		54F321FC28D201C30053B65A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F321FB28D201C30053B65A /* ContentView.swift */; };
 		54F321FE28D201C50053B65A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F321FD28D201C50053B65A /* Assets.xcassets */; };
 		54F3220128D201C50053B65A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F3220028D201C50053B65A /* Preview Assets.xcassets */; };
+		B227C5C32909AD7C00B07918 /* MySecondCustomAudio.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B227C5C22909ACB300B07918 /* MySecondCustomAudio.m4a */; };
+		B227C5C52909AF9200B07918 /* Thats-sus.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B227C5C42909AF9200B07918 /* Thats-sus.m4a */; };
+		B227C5C72909AF9C00B07918 /* thats-weird.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B227C5C62909AF9C00B07918 /* thats-weird.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		54F321FB28D201C30053B65A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		54F321FD28D201C50053B65A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54F3220028D201C50053B65A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B227C5C22909ACB300B07918 /* MySecondCustomAudio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = MySecondCustomAudio.m4a; sourceTree = "<group>"; };
+		B227C5C42909AF9200B07918 /* Thats-sus.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Thats-sus.m4a"; sourceTree = "<group>"; };
+		B227C5C62909AF9C00B07918 /* thats-weird.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "thats-weird.m4a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,9 @@
 			isa = PBXGroup;
 			children = (
 				546D0AF528D495F10055DDE7 /* MyCustomAudio.m4a */,
+				B227C5C22909ACB300B07918 /* MySecondCustomAudio.m4a */,
+				B227C5C42909AF9200B07918 /* Thats-sus.m4a */,
+				B227C5C62909AF9C00B07918 /* thats-weird.m4a */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -154,7 +163,10 @@
 			files = (
 				54F3220128D201C50053B65A /* Preview Assets.xcassets in Resources */,
 				546D0AF628D495F10055DDE7 /* MyCustomAudio.m4a in Resources */,
+				B227C5C32909AD7C00B07918 /* MySecondCustomAudio.m4a in Resources */,
+				B227C5C72909AF9C00B07918 /* thats-weird.m4a in Resources */,
 				54F321FE28D201C50053B65A /* Assets.xcassets in Resources */,
+				B227C5C52909AF9200B07918 /* Thats-sus.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +307,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FeedbackDemoApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 8CEGBA729H;
+				DEVELOPMENT_TEAM = QMPGVXKJVA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -324,7 +336,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FeedbackDemoApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 8CEGBA729H;
+				DEVELOPMENT_TEAM = QMPGVXKJVA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
